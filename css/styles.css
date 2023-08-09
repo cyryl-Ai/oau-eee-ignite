@@ -10850,10 +10850,11 @@ button {
   top: 0;
   left: 0;
   width: 5px;
-  height: 100px;
+  height:100vh;
   padding: 75px;
-  padding-top: 10px;
+  padding-bottom: 5px;
 }
+
 
 .social-icon {
   font-family:"Font Awesome 5 Free",sans-serif;
@@ -10867,16 +10868,31 @@ button {
   margin-top: 20px; /* Adjust the margin as needed */
 }
 
-/* styles.css */
-#header-with-bg {
-  background-image: url('./oauai4.webp');
-  background-size: cover; /* Adjust as needed */
-  background-position: center center; /* Adjust as needed */
-}
 
 .cta-button {
   text-decoration: none;
   text-size-adjust: 20px;;
 }
 
+.navbar-brand {
+  padding:20px;
+
+}
+#book {
+  justify-items: center;
+}
+
+#amb {
+  display:block;
+  justify-items: center;
+  align-items: center;
+  padding-left: 500px;
+}
+
+#ambx {
+  display:flex;
+  justify-items: center;
+  align-items: center;
+  padding-left: 50px;
+}
 
