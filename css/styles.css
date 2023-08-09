@@ -54,7 +54,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", 'Roboto', "Helvetica Neue", "Open Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -85,7 +85,7 @@
   box-sizing: border-box;
 }
 #contact{
-  height:5opx;
+  height: 50px;
 }
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -10855,8 +10855,28 @@ button {
   padding-top: 10px;
 }
 
+.social-icon {
+  font-family:"Font Awesome 5 Free",sans-serif;
+  font-size: 24px;
+  color:black;
+}
+
 .logo-image {
   width: 100px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   margin-top: 20px; /* Adjust the margin as needed */
 }
+
+/* styles.css */
+#header-with-bg {
+  background-image: url('./oauai4.webp');
+  background-size: cover; /* Adjust as needed */
+  background-position: center center; /* Adjust as needed */
+}
+
+.cta-button {
+  text-decoration: none;
+  text-size-adjust: 20px;;
+}
+
+
