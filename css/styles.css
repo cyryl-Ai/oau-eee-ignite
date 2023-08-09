@@ -10871,7 +10871,7 @@ button {
 
 .cta-button {
   text-decoration: none;
-  text-size-adjust: 20px;;
+  text-size-adjust: 20 px;;
   
 }
 
@@ -10884,13 +10884,13 @@ button {
   display:block;
   justify-items: center;
   align-items: center;
-  padding-left: 500px;
+  padding-left: 500 px;
 }
 
 #ambx {
   display:flex;
   justify-items: center;
   align-items: center;
-  padding-left: 50px;
+  padding-left: 50 px;
 }
 
