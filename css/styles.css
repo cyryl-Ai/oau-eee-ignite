@@ -10872,12 +10872,10 @@ button {
 .cta-button {
   text-decoration: none;
   text-size-adjust: 20px;;
+  
 }
 
-.navbar-brand {
-  padding:20px;
 
-}
 #book {
   justify-items: center;
 }
