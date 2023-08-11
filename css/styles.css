@@ -10871,26 +10871,56 @@ button {
 
 .cta-button {
   text-decoration: none;
-  text-size-adjust: 20 px;;
-  
+  text-size-adjust: 20px;;
+
 }
 
+#brave {
+  width:100%;
+  overflow:hidden;
+}
 
+.navbar-toggler ml-auto {
+  float:right;
+}
 #book {
   justify-items: center;
 }
 
 #amb {
   display:block;
-  justify-items: center;
-  align-items: center;
-  padding-left: 500 px;
+  justify-items: left;
+  align-items: left;
 }
 
 #ambx {
-  display:flex;
-  justify-items: center;
+  display:block;
+  justify-items: left;
+  align-items: left;
+  color:#000;
+}
+
+
+
+/* styles.css */
+
+.social-icons {
+  display: block;
+  justify-content: center;
   align-items: center;
-  padding-left: 50 px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 2rem;
+  color: #000;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  display:block;
+}
+
+.social-icon:hover {
+  color: #007bff;
 }
 
