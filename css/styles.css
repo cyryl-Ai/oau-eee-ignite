@@ -10900,27 +10900,12 @@ button {
   color:#000;
 }
 
-
-
-/* styles.css */
-
 .social-icons {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+  display:inline-block;
 }
 
 .social-icon {
-  font-size: 2rem;
-  color: #000;
-  margin: 0 10px;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
   display:block;
 }
 
-.social-icon:hover {
-  color: #007bff;
-}
 
