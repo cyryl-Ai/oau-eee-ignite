@@ -10935,7 +10935,14 @@ button {
     padding:0px;
     background-size: cover;
   }
-  #header {
+  .amb {
     width:100%;
+    max-width: 767px;
+    height:auto;
+    background-image:url('box.png');
+    color:#fff;
+    background-size:cover;
+    background-position:center;
+    height:auto;
   }
 }
